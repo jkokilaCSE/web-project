@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tutorials</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <div id="header">
+       <a href="index.html"> <div id="logo">
+            Tutorials<sup style="font-size: 15px;">GK</sup>
+            <p>"We Teach You Grow"</p>
+            </div>
+        </a>
+        <div id="nav-hor">
+            <ul><a href="about.html">About</a></ul>
+            <ul><a href="index.html">Tutorials</a></ul>
+            <ul><a href="references.html">References</a></ul>
+            <ul><a href="contact.html">Contact</a></ul>
+        </div>
+    </div>
+    <div id="content">
+        <div id="nav-ver">
+            <p class="topic">C Tutorials</p><hr>
+            <a href="#home">C Home</a>
+            <a href="#Intro">C Intro</a>
+            <a href="#get">C Get Started</a>
+            <a href="#syntax">C Syntax</a>
+            <a href="#comments">C Commands</a>
+            <a href="#variable">C Varibles</a>
+            <a href="#datatype">C Data Types</a>
+            <a href="#constant">C Constants</a>
+            <a href="#operator">C Operators</a>
+            <a href="#ifelse">C If...Else</a>
+            <a href="#switch">C Switch</a>
+            <a href="https://www.w3schools.com/c/c_while_loop.php" target="_blank">C While Loop</a>
+            <a href="https://www.w3schools.com/c/c_for_loop.php"  target="_blank">C For Loop</a>
+            <a href="https://www.w3schools.com/c/c_break_continue.php"  target="_blank">C Break/Continue</a>
+            <a href="https://www.w3schools.com/c/c_arrays.php"  target="_blank">C Array</a>
+            <a href="https://www.w3schools.com/c/c_strings.php"  target="_blank">C Strings</a>
+            <a href="https://www.w3schools.com/c/c_user_input.php"  target="_blank">C User Input</a>
+            <a href="https://www.w3schools.com/c/c_memory_address.php"  target="_blank">C Memory</a>
+            <a href="https://www.w3schools.com/c/c_pointers.php"  target="_blank">C Pointers</a>
+            <p class="topic">C Functions</p>
+            <a href="https://www.w3schools.com/c/c_functions.php"  target="_blank">C Functions</a>
+            <a href="https://www.w3schools.com/c/c_functions_parameters.php"  target="_blank">C Functions Parameters</a>
+            <a href="https://www.w3schools.com/c/c_functions_decl.php"  target="_blank">C Function Declaration</a>
+            <a href="https://www.w3schools.com/c/c_functions_recursion.php"  target="_blank">C Recursion</a>
+            <a href="https://www.w3schools.com/c/c_math.php" target="_blank">C Math Functions</a>
+        </div>
+        <div id="con-body">
+            <div class="cont-tur" id="home">
+                <p class="cont-topic">C Tutorial</p>
+                <p class="cont-subt">Learn C</p>
+                <p class="cont-sent">C is a general-purpose programming language, developed in 1972, and still quite popular.
+
+                    C is very powerful; it has been used to develop operating systems, databases, applications, etc.
+                    
+                    </p>
+                    <p class="cont-subt">Examples in Each Chapter</p>
+                    <p class="cont-sent">Our Try it Yourself tool makes it easy to learn C. You can edit code and view the result in your browser:</p>
+                    <div class="cont-code">
+                        <p class="code-topic">
+                            Example
+                        </p>
+                        <code class="code-sample">
+                            #include &lt;stdio.h&gt;
+<br>
+&nbsp;      int main() {
+<br>        &nbsp;                          printf("Hello World!");
+    <br>          &nbsp;                    return 0;
+        <br>                        }
+                                
+                            </code>
+                   
+                    </div>
+                    
+            </div>
+            <div class="cont-tur" id="Intro">
+                <p class="cont-topic">C Introduction</p>
+                    <p class="cont-subt">What is C?</p>
+                    <p class="cont-sent">C is a general-purpose programming language created by Dennis Ritchie at the Bell Laboratories in 1972.
+
+                        It is a very popular language, despite being old.
+                        
+                        C is strongly associated with UNIX, as it was developed to write the UNIX operating system.</p>
+                    <p class="cont-subt">Why Learn C?</p>
+                    <p class="cont-sent">It is one of the most popular programming language in the world
+                        If you know C, you will have no problem to learn other popular programming languages such as Java, Python, C++, C#, etc, as the syntax is similar
+                        C is very fast, compared to other programming languages, like Java and Python
+                        C is very versatile; it can be used in both applications and technologies
+                        </p>
+                    <p class="cont-subt">Difference between C and C++</p>
+                    <p class="cont-sent">C++ was developed as an extension of C, and both languages have almost the same syntax
+                        The main diffference between C and C++ is that C++ support classes and objects, while C does not</p>
+                    <p class="cont-subt">Get Started</p>
+                    <p class="cont-sent">This tutorial will teach you the very basics of C.
+
+                        It is not necessary to have any prior programming experience.</p>
+                    
+            </div>
+            <div class="cont-tur" id="get">
+                <p class="cont-topic">C Get Started </p>
+                <p class="cont-subt">Get Started With C</p>
+                <p class="cont-sent">To start using C, you need two things:
+
+                    A text editor, like Notepad, to write C code
+                    A compiler, like GCC, to translate the C code into a language that the computer will understand
+                    There are many text editors and compilers to choose from. In this tutorial, we will use an IDE (see below).
+                    
+                    </p>
+                    <p class="cont-subt">C Install IDE</p>
+                    <p class="cont-sent">An IDE (Integrated Development Environment) is used to edit AND compile the code.
+
+                        Popular IDE's include Code::Blocks, Eclipse, and Visual Studio. These are all free, and they can be used to both edit and debug C code.
+                        
+                        Note: Web-based IDE's can work as well, but functionality is limited.
+                        
+                        We will use Code::Blocks in our tutorial, which we believe is a good place to start.
+                        
+                        You can find the latest version of Codeblocks at http://www.codeblocks.org/. Download the mingw-setup.exe file, which will install the text editor with a compiler.
+                        
+                        </p>
+                    <p class="cont-subt">C Quickstart</p>
+                    <p class="cont-sent">Let's create our first C file.
+
+                        Open Codeblocks and go to File > New > Empty File.
+                        
+                        Write the following C code and save the file as myfirstprogram.c (File > Save File as):</p>
+                        <div class="cont-code">
+                        <p class="code-topic">myfirstprogram.c</p>
+                        <code class="code-sample">
+                            #include <stdio.h> <br>
+
+                                int main() { <br>
+                                  printf("Hello World!"); <br>
+                                  return 0; <br>
+                                }
+                                
+                        </code>
+                    </div>
+                    <p class="cont-subt">Result:</p>
+                    <p class="cont-sent">Hello World!
+                    </p>
+                    <div class="cont-tur" id="syntax">
+                        <p class="cont-topic">C Syntax</p>
+                        <p class="cont-subt">Syntax</p>
+                        <p class="cont-sent">You have already seen the following code a couple of times in the first chapters. Let's break it down to understand it better:</p>
+                        <div class="cont-code">
+                        <p class="code-topic">Example</p>
+                        <code class="code-sample">
+                            #include <stdio.h> <br>
+
+                                int main() { <br>
+                                  printf("Hello World!"); <br>
+                                  return 0; <br>
+                                }
+                                
+
+                        </code>
+                    </div>
+                    <p class="cont-subt">Example explained</p>
+                    <p class="cont-sent">Line 1: #include <stdio.h> is a header file library that lets us work with input and output functions, such as printf() (used in line 4). Header files add functionality to C++ programs.</p>
+                    <p class="cont-sent">Line 2: A blank line. C ignores white space. But we use it to make the code more readable.
+
+                        Line 3: Another thing that always appear in a C program, is main(). This is called a function. Any code inside its curly brackets {} will be executed.
+                        
+                        Line 4: printf() is a function used to output/print text to the screen. In our example it will output "Hello World".</p>
+                        Line 5: return 0 ends the main() function.
+                        Line 6: Do not forget to add the closing curly bracket } to actually end the main function.
+                    </div>
+                    <div class="cont-tur" id="output">
+                        <p class="cont-topic">C Output (Print Text)
+                        </p>
+                        <p class="cont-subt">Output (Print Text)</p>
+                        <div class="cont-code">
+                        <p class="code-topic">Example</p>
+                        <code class="code-sample">
+                            #include <stdio.h> <br>
+
+                                int main() { <br>
+                                  printf("Hello World!"); <br>
+                                  return 0; <br>
+                                }
+                        </code>
+                    </div>
+                        <p class="cont-sent">You can add as many printf() functions as you want. However, note that it does not insert a new line at the end of the output:
+
+                        </p>
+                        <div class="cont-code"></div>
+                        <code class="code-sample">
+                            #include <stdio.h> <br>
+
+                                int main() { <br>
+                                  printf("Hello World!"); <br>
+                                  printf("I am learning C."); <br>
+                                  return 0;<br>
+                                }
+                                
+                        </code>
+                    <div class="cont-tur" id="comments">
+                        <p class="cont-topic">C Comments</p>
+                        <p class="cont-subt">Comments in C</p>
+                        <p class="cont-sent">Comments can be used to explain code, and to make it more readable. It can also be used to prevent execution when testing alternative code.
+
+                            Comments can be singled-lined or multi-lined.</p>
+                        <p class="cont-subt">Single-line Comments</p>
+                        <p class="cont-sent">Single-line comments start with two forward slashes (//).
+
+                            Any text between // and the end of the line is ignored by the compiler (will not be executed).
+                            
+                            This example uses a single-line comment before a line of code:</p>
+                        <div class="cont-code">
+                        <p class="code-topic">Example</p>
+                        <code class="code-sample">
+                            // This is a comment 
+                            printf("Hello World!");
+
+                        </code>
+                    </div>
+                        <p class="cont-sent">This example uses a single-line comment at the end of a line of code:</p>
+                        <p class="cont-subt">C Multi-line Comments
+                        </p>
+                        <p class="cont-sent">Multi-line comments start with /* and ends with */.
+
+                            Any text between /* and */ will be ignored by the compiler:</p>
+                        <div class="cont-code">
+                            <p class="code-topic">Example</p>
+                        <code class="code-sample">/* The code below will print the words Hello World!
+                            to the screen, and it is amazing */ <br>
+                            printf("Hello World!");</code>
+                        </div>
+                        <div class="cont-tur" id="variable">
+                            <p class="cont-topic">C Variables</p>
+                            <p class="cont-sent">Variables are containers for storing data values.
+
+                                In C, there are different types of variables (defined with different keywords), for example:
+                                
+                                int - stores integers (whole numbers), without decimals, such as 123 or -123
+                                float - stores floating point numbers, with decimals, such as 19.99 or -19.99
+                                char - stores single characters, such as 'a' or 'B'. Char values are surrounded by single quotes
+                                </p>
+                            <p class="cont-subt">Declaring (Creating) Variables</p>
+                            <p class="cont-sent">To create a variable, specify the type and assign it a value:</p>
+                            <div class="cont-code">
+                            <p class="cont-topic">Sample</p>
+                            <p class="code-sample">type variableName = value;</p>
+                        </div>
+                            <p class="cont-sent">Where type is one of C types (such as int), and variableName is the name of the variable (such as x or myName). The equal sign is used to assign a value to the variable.
+
+                                So, to create a variable that should store a number, look at the following example:</p>
+                            <div class="cont-code">
+                                <p class="code-topic">Example</p>
+                            <p class="cont-sent">Create a variable called myNum of type int and assign the value 15 to it:</p>
+                            <code class="code-sample">int myNum = 15;</code>
+                        </div>
+                            <p class="cont-sent">You can also declare a variable without assigning the value, and assign the value later:</p>
+                            <div class="cont-code">
+                            <p class="code-topic">Example</p>
+                            <code class="code-sample">
+                                int myNum; <br>
+                                myNum = 15;
+                            </code>
+                        </div>
+                            <p class="cont-topic">Add Variables Together</p>
+                            <p class="cont-sent">To add a variable to another variable, you can use the + operator:</p>
+                            <div class="cont-code">
+                            <p class="code-topic">Example</p>
+                            <code class="code-sample">
+                                int x = 5; <br>
+                                int y = 6; <br>
+                                int sum = x + y; <br>
+                                printf("%d", sum);
+                            </code>
+                        </div>
+                            <p class="cont-topic">Declare Multiple Variables</p>
+                            <p class="cont-sent">To declare more than one variable of the same type, use a comma-separated list:
+
+                            </p>
+                            <div class="cont-code">
+                            <p class="code-topic">Example</p>
+                            <code class="code-sample">
+                                int x = 5, y = 6, z = 50; <br>
+                                printf("%d", x + y + z);
+                            </code>
+                        </div>
+                            <p class="cont-sent">You can also assign the same value to multiple variables of the same type:
+
+                            </p>
+                            <div class="cont-code">
+                            <p class="code-topic">Example</p>
+                            <code class="code-sample">
+                                int x, y, z; <br>
+                                x = y = z = 50; <br>
+                                printf("%d", x + y + z);
+                            </code>
+                        </div>
+                            <p class="cont-topic">C Variable Names
+                            </p>
+                            <p class="cont-sent">All C variables must be identified with unique names.
+
+                                These unique names are called identifiers.
+                                
+                                Identifiers can be short names (like x and y) or more descriptive names (age, sum, totalVolume).
+                                
+                                Note: It is recommended to use descriptive names in order to create understandable and maintainable code:</p>
+                        </div>
+                        <div class="cont-code">
+                        <p class="code-topic">Example</p>
+                        <code class="code-sample">
+                            // Good
+                            int minutesPerHour = 60; <br>
+
+                            // OK, but not so easy to understand what m actually is 
+                            int m = 60;
+                        </code>
+                    </div>
+                        <p class="cont-sent">The general rules for naming variables are: <br>
+
+                            Names can contain letters, digits and underscores <br>
+                            Names must begin with a letter or an underscore (_) <br>
+                            Names are case sensitive (myVar and myvar are different variables) <br>
+                            Names cannot contain whitespaces or special characters like !, #, %, etc. <br>
+                            Reserved words (such as int) cannot be used as names
+                            </p>
+                    <div class="cont-tur" id="datatype">
+                        <p class="cont-topic">C Data Types</p>
+                        <p class="cont-subt">Data Types</p>
+                        <p class="cont-sent">As explained in the Variables chapter, a variable in C must be a specified data type, and you must use a format specifier inside the printf() function to display it:</p>
+                        <div class="cont-code">
+                        <p class="code-topic">Example</p>
+                        <code class="code-sample">// Create variables
+                            int myNum = 5;             // Integer (whole number) <br>
+                            float myFloatNum = 5.99;   // Floating point number <br>
+                            char myLetter = 'D';       // Character <br>
+                            
+                            // Print variables 
+                            printf("%d\n", myNum); <br>
+                            printf("%f\n", myFloatNum); <br>
+                            printf("%c\n", myLetter); <br>
+                            </code>
+                        </div>
+                            <p class="cont-topic">Basic Data Types</p>
+                            <p class="cont-sent">The data type specifies the size and type of information the variable will store.
+
+                                In this tutorial, we will focus on the most basic ones:</p>
+                    </div>
+                    <div class="cont-tur" id="constant">
+                        <p class="cont-topic">C Constants</p>
+                        <p class="cont-subt">Constants</p>
+                        <p class="cont-sent">When you don't want others (or yourself) to override existing variable values, use the const keyword (this will declare the variable as "constant", which means unchangeable and read-only):</p>
+                        <div class="cont-code">
+                            <p class="code-topic">Example</p>
+                            <code class="code-sample">
+                                const int myNum = 15;  // myNum will always be 15 <br>
+                                myNum = 10;  // error: assignment of read-only variable 'myNum'
+                            </code>
+                        </div>
+                        <p class="cont-sent">You should always declare the variable as constant when you have values that are unlikely to change:</p>
+                        <div class="cont-code">
+                            <p class="code-topic">Example</p>
+                            <code class="code-sample">
+                                const int minutesPerHour = 60; <br>
+                                const float PI = 3.14;
+
+                            </code>
+
+                        </div>
+                        <p class="cont-topic">Notes On Constants</p>
+                        <p class="cont-sent">When you declare a constant variable, it must be assigned with a value:</p>
+                        <div class="cont-code">
+                            <p class="code-topic">Example</p>
+                            <code class="code-sample">
+                                const int minutesPerHour = 60;
+                            </code>
+                        </div>
+                        <p class="cont-topic">Good Practice</p>
+                        <p class="cont-sent">Another thing about constant variables, is that it is considered good practice to declare them with uppercase. It is not required, but useful for code readability and common for C programmers:
+
+                        </p>
+                        <div class="cont-code">
+                            <code class="code-sample"> 
+                                const int BIRTHYEAR = 1980;
+                            </code>
+                        </div>
+                        <div class="cont-tur" id="operator">
+                            <p class="cont-topic">C Operators</p>
+                            <p class="cont-subt">Operators</p>
+                            <p class="cont-sent">Operators are used to perform operations on variables and values.
+
+                                In the example below, we use the + operator to add together two values:</p>
+                                <div class="cont-code">
+                                    <p class="code-topic">
+                                        Example
+                                    </p>
+                                    <code class="code-sample">
+                                        int myNum = 100 + 50;
+                                    </code>
+                                </div>
+                                <p class="cont-sent">
+                                    C divides the operators into the following groups: <br>
+
+                                    Arithmetic operators <br>
+                                    Assignment operators <br>
+                                    Comparison operators <br>
+                                    Logical operators <br>
+                                    Bitwise operators <br>
+
+                                </p>
+                                <p class="cont-subt">Arithmetic Operators</p>
+                                <p class="cont-sent">Arithmetic operators are used to perform common mathematical operations.</p>
+                                <p class="cont-subt">Assignment Operators</p>
+                                <p class="cont-sent">Assignment operators are used to assign values to variables.
+
+                                    In the example below, we use the assignment operator (=) to assign the value 10 to a variable called x:</p>
+                                <div class="cont-code">
+                                    <p class="code-topic">Example</p>
+                                    <code class="code-sample">int x = 10;</code>
+                                </div>
+                                <p class="cont-subt">Comparison Operators</p>
+                                <p  class="cont-sent">Comparison operators are used to compare two values.
+
+                                    Note: The return value of a comparison is either true (1) or false (0).
+                                    
+                                    In the following example, we use the greater than operator (>) to find out if 5 is greater than 3:
+                                    
+                                    </p>
+                                    <div class="cont-code">
+                                        <p class="code-topic">Example</p>
+                                        <code class="code-sample">int x = 5;<br>
+                                            int y = 3; <br>
+                                            printf("%d", x > y); // returns 1 (true) because 5 is greater than 3</code>
+                                    </div>
+                                    <p class="cont-subt">Logical Operators</p>
+                                    <p class="cont-sent">Logical operators are used to determine the logic between variables or values:</p>
+                                    <p class="cont-subt">Sizeof Operator</p>
+                                    <p class="cont-sent">The memory size (in bytes) of a data type or a variable can be found with the sizeof operator:</p>
+                                    <div class="cont-code">
+                                        <p class="cont-topic">Example</p>
+                                        <code class="code-sample">int myInt; <br>
+                                            float myFloat; <br>
+                                            double myDouble; <br>
+                                            char myChar;<br>
+                                            
+                                            printf("%lu\n", sizeof(myInt)); <br>
+                                            printf("%lu\n", sizeof(myFloat)); <br>
+                                            printf("%lu\n", sizeof(myDouble)); <br>
+                                            printf("%lu\n", sizeof(myChar));
+                                            </code>
+                                    </div>
+                                    <div class="cont-tur" id="ifelse">
+                                        <p class="cont-topic">C If ... Else</p>
+                                        <p class="cont-subt">Conditions and If Statements</p>
+                                        <p class="cont-sent">You learned from the operators comparison chapter, that C supports the usual logical conditions from <br>
+
+                                            Less than: a < b <br>
+                                            Less than or equal to: a <= b 
+                                            Greater than: a > b <br>
+                                            Greater than or equal to: a >= b <br>
+                                            Equal to a == b <br>
+                                            Not Equal to: a != b <br>
+                                            You can use these conditions to perform different actions for different decisions. <br>
+                                            
+                                            C has the following conditional statements: <br>
+                                            
+                                            Use if to specify a block of code to be executed, if a specified condition is true <br>
+                                            Use else to specify a block of code to be executed, if the same condition is false <br>
+                                            Use else if to specify a new condition to test, if the first condition is false <br>
+                                            Use switch to specify many alternative blocks of code to be executed <br>
+                                            </p>
+                                            <p class="cont-subt">The if Statement
+                                            </p>
+                                            <p class="cont-sent">Use the if statement to specify a block of C code to be executed if a condition is true.
+
+                                            </p>
+                                            <div class="cont-code">
+                                                <p class="code-topic">Syntax</p>
+                                                <code class="code-sample">if (condition) { <br>
+                                                    // block of code to be executed if the condition is true
+                                                  }
+                                                  </code>
+                                            </div>
+                                            <p class="cont-subt">The else Statement</p>
+                                            <p class="cont-sent">Use the else statement to specify a block of code to be executed if the condition is false.</p>
+                                            <div class="cont-code">
+                                                <p class="code-topic">Syntax</p>
+                                                <code class="code-sample">if (condition) { <br>
+                                                    // block of code to be executed if the condition is true 
+                                                  } else {<br>
+                                                    // block of code to be executed if the condition is false
+                                                  }</code>
+                                            </div>
+                                            <div class="cont-tur" id="switch">
+                                                <p class="cont-topic">C Switch</p>
+                                                <p class="cont-subt">Switch Statement</p>
+                                                <p class="cont-sent">Instead of writing many if..else statements, you can use the switch statement.
+
+                                                    The switch statement selects one of many code blocks to be executed:</p>
+                                            <div class="cont-code">
+                                                <p class="code-topic">Syntax</p>
+                                                <code class="code-sample">switch(expression) { <br>
+                                                    case x: <br>
+                                                      // code block
+                                                      break; <br>
+                                                    case y: <br>
+                                                      // code block
+                                                      break; <br>
+                                                    default: <br>
+                                                      // code block
+                                                  }</code>       
+                                            <p class="cont-sent">
+                                                This is how it works:
+
+                                                The switch expression is evaluated once
+                                                The value of the expression is compared with the values of each case
+                                                If there is a match, the associated block of code is executed
+                                                The break statement breaks out of the switch block and stops the execution
+                                                The default statement is optional, and specifies some code to run if there is no case match
+                                                The example below uses the weekday number to calculate the weekday name:
+                                                </p>
+                                                <div class="cont-code">
+                                                    <p class="code-topic">Example</p>
+                                                    <code class="code-sample">
+                                                        int day = 4; <br>
+
+                                                        switch (day) { <br>
+                                                        case 1: <br>
+                                                            printf("Monday"); <br>
+                                                            break; <br>
+                                                        case 2: <br>
+                                                            printf("Tuesday"); <br>
+                                                            break; <br>
+                                                        case 3: <br>
+                                                            printf("Wednesday"); <br>
+                                                            break; <br>
+                                                        case 4: <br>
+                                                            printf("Thursday"); <br>
+                                                            break; <br>
+                                                        case 5: <br>
+                                                            printf("Friday"); <br>
+                                                            break; <br>
+                                                        case 6: <br>
+                                                            printf("Saturday"); <br>
+                                                            break; <br>
+                                                        case 7: <br>
+                                                            printf("Sunday"); <br>
+                                                            break; <br>
+                                                        } <br>
+
+                                                        // Outputs "Thursday" (day 4)
+                                                    </code>
+                                                </div>
+
+
+                                    
+                                            </div>
+                                    
+                                            </div>
+
+                                        </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div id="footer">
+                    All rights reserved &copy; 2022
+                        </div>
+            </div>
+    </div>
+    <div class="top">
+      <a href="#Intro"> <p> UP</p></a>
+    </div>
+    
+</body>
+</html>
